@@ -1,0 +1,3119 @@
+{
+  "total_cols": 13,
+  "size_orig": [
+    470,
+    441
+  ],
+  "size_rend": [
+    470,
+    573
+  ],
+  "crop_orig": [
+    271,
+    55,
+    979,
+    720
+  ],
+  "wipe_orig": [
+    [
+      0,
+      0,
+      92,
+      62
+    ],
+    [
+      605,
+      0,
+      708,
+      82
+    ]
+  ],
+  "pad_x_orig": 0,
+  "crop_rend": [
+    56,
+    12,
+    456,
+    500
+  ],
+  "gap_frames": 3,
+  "grid": [
+    4,
+    3
+  ],
+  "seg_keep": 0.7,
+  "phase_lam": 0.1,
+  "torso_orig": 257.5,
+  "torso_rend": 145.25,
+  "mot_thr": 0.3,
+  "hgt_thr": 0.45,
+  "hgt_thr_rend": 0.35,
+  "clip_max": 4,
+  "conn_near_best": 0.97,
+  "conn_rest_min": 0.55,
+  "conn_front_min": 0.5,
+  "conn_arm_max": 1.8,
+  "conn_extra": 20,
+  "frontal_ranges": {
+    "VÀO": [
+      [
+        0,
+        52
+      ]
+    ]
+  },
+  "render_dir": "output_kq05_dex_v3",
+  "sentences_src": "demo_sentences.json",
+  "transition": "connector",
+  "connector_ckpt": "sign_connector/checkpoints/connector_ep491.pth",
+  "continuity_now": {
+    "d_ratio": 1.33,
+    "jerk_ratio": 1.46,
+    "spike_noi": 1.85,
+    "spike_doan": 2.45
+  },
+  "continuity_prev": {
+    "name": "output_kq05_dex_v2",
+    "d_ratio": 1.76,
+    "jerk_ratio": 2.33,
+    "spike_noi": 1.77,
+    "spike_doan": 2.74,
+    "n_frame_noi": [
+      3
+    ]
+  },
+  "body_orig": {
+    "ANH": {
+      "shoulder_w_px": 384.0,
+      "region": [
+        4,
+        180,
+        62,
+        264
+      ],
+      "n": 82,
+      "n_signing": 35
+    },
+    "BÊN_CẠNH": {
+      "shoulder_w_px": 304.0,
+      "region": [
+        24,
+        164,
+        85,
+        244
+      ],
+      "n": 92,
+      "n_signing": 30
+    },
+    "BẠN": {
+      "shoulder_w_px": 388.0,
+      "region": [
+        2,
+        180,
+        55,
+        259
+      ],
+      "n": 189,
+      "n_signing": 63
+    },
+    "BẰNG": {
+      "shoulder_w_px": 340.0,
+      "region": [
+        4,
+        162,
+        72,
+        250
+      ],
+      "n": 98,
+      "n_signing": 27
+    },
+    "BỐ_MẸ": {
+      "shoulder_w_px": 292.0,
+      "region": [
+        26,
+        161,
+        88,
+        242
+      ],
+      "n": 50,
+      "n_signing": 24
+    },
+    "CHÚNG_TÔI": {
+      "shoulder_w_px": 356.8,
+      "region": [
+        0,
+        161,
+        66,
+        253
+      ],
+      "n": 77,
+      "n_signing": 24
+    },
+    "CHẶT": {
+      "shoulder_w_px": 335.2,
+      "region": [
+        3,
+        158,
+        76,
+        251
+      ],
+      "n": 84,
+      "n_signing": 36
+    },
+    "CON_TRAI": {
+      "shoulder_w_px": 336.0,
+      "region": [
+        11,
+        167,
+        64,
+        240
+      ],
+      "n": 71,
+      "n_signing": 14
+    },
+    "CUỘC_SỐNG": {
+      "shoulder_w_px": 360.8,
+      "region": [
+        4,
+        171,
+        56,
+        246
+      ],
+      "n": 76,
+      "n_signing": 32
+    },
+    "CƠ_HỘI": {
+      "shoulder_w_px": 344.4,
+      "region": [
+        11,
+        170,
+        68,
+        248
+      ],
+      "n": 77,
+      "n_signing": 33
+    },
+    "CẦU_NGUYỆN": {
+      "shoulder_w_px": 304.0,
+      "region": [
+        25,
+        165,
+        85,
+        245
+      ],
+      "n": 216,
+      "n_signing": 25
+    },
+    "CẮM_TRẠI": {
+      "shoulder_w_px": 391.2,
+      "region": [
+        0,
+        174,
+        58,
+        263
+      ],
+      "n": 76,
+      "n_signing": 15
+    },
+    "DUY_NHẤT": {
+      "shoulder_w_px": 360.0,
+      "region": [
+        6,
+        172,
+        62,
+        251
+      ],
+      "n": 70,
+      "n_signing": 27
+    },
+    "GIỎI": {
+      "shoulder_w_px": 340.0,
+      "region": [
+        6,
+        163,
+        63,
+        242
+      ],
+      "n": 259,
+      "n_signing": 30
+    },
+    "GỌI": {
+      "shoulder_w_px": 344.0,
+      "region": [
+        5,
+        164,
+        63,
+        243
+      ],
+      "n": 183,
+      "n_signing": 28
+    },
+    "GỬI_THƯ": {
+      "shoulder_w_px": 344.0,
+      "region": [
+        4,
+        163,
+        65,
+        245
+      ],
+      "n": 87,
+      "n_signing": 24
+    },
+    "HÀNH_LANG": {
+      "shoulder_w_px": 368.0,
+      "region": [
+        0,
+        170,
+        58,
+        252
+      ],
+      "n": 71,
+      "n_signing": 12
+    },
+    "HỌ": {
+      "shoulder_w_px": 336.0,
+      "region": [
+        0,
+        153,
+        79,
+        255
+      ],
+      "n": 96,
+      "n_signing": 8
+    },
+    "KHÁC": {
+      "shoulder_w_px": 288.0,
+      "region": [
+        27,
+        160,
+        87,
+        238
+      ],
+      "n": 74,
+      "n_signing": 27
+    },
+    "KHÁCH": {
+      "shoulder_w_px": 268.8,
+      "region": [
+        32,
+        156,
+        92,
+        233
+      ],
+      "n": 64,
+      "n_signing": 21
+    },
+    "KHÔNG_KHÍ": {
+      "shoulder_w_px": 276.0,
+      "region": [
+        26,
+        154,
+        83,
+        228
+      ],
+      "n": 87,
+      "n_signing": 40
+    },
+    "LÚC_NÀO": {
+      "shoulder_w_px": 348.4,
+      "region": [
+        3,
+        164,
+        65,
+        248
+      ],
+      "n": 81,
+      "n_signing": 29
+    },
+    "MUỐN": {
+      "shoulder_w_px": 346.0,
+      "region": [
+        0,
+        158,
+        70,
+        251
+      ],
+      "n": 78,
+      "n_signing": 13
+    },
+    "MÙA_HÈ": {
+      "shoulder_w_px": 372.0,
+      "region": [
+        1,
+        173,
+        54,
+        249
+      ],
+      "n": 78,
+      "n_signing": 40
+    },
+    "MẤT": {
+      "shoulder_w_px": 364.0,
+      "region": [
+        4,
+        172,
+        65,
+        256
+      ],
+      "n": 66,
+      "n_signing": 29
+    },
+    "NHẬN": {
+      "shoulder_w_px": 361.6,
+      "region": [
+        14,
+        180,
+        61,
+        251
+      ],
+      "n": 71,
+      "n_signing": 24
+    },
+    "PHỤ_THUỘC": {
+      "shoulder_w_px": 364.0,
+      "region": [
+        5,
+        173,
+        59,
+        251
+      ],
+      "n": 66,
+      "n_signing": 25
+    },
+    "QUỲ": {
+      "shoulder_w_px": 357.2,
+      "region": [
+        1,
+        166,
+        63,
+        250
+      ],
+      "n": 90,
+      "n_signing": 21
+    },
+    "THÁNG": {
+      "shoulder_w_px": 356.0,
+      "region": [
+        9,
+        174,
+        63,
+        249
+      ],
+      "n": 69,
+      "n_signing": 21
+    },
+    "THỰC_HIỆN": {
+      "shoulder_w_px": 368.0,
+      "region": [
+        3,
+        173,
+        60,
+        253
+      ],
+      "n": 66,
+      "n_signing": 16
+    },
+    "TÍNH_CÁCH": {
+      "shoulder_w_px": 381.6,
+      "region": [
+        11,
+        180,
+        57,
+        257
+      ],
+      "n": 72,
+      "n_signing": 33
+    },
+    "VÀO": {
+      "shoulder_w_px": 263.2,
+      "region": [
+        42,
+        164,
+        98,
+        236
+      ],
+      "n": 126,
+      "n_signing": 20
+    },
+    "VÉ": {
+      "shoulder_w_px": 288.0,
+      "region": [
+        27,
+        160,
+        86,
+        238
+      ],
+      "n": 183,
+      "n_signing": 29
+    },
+    "XUỐNG": {
+      "shoulder_w_px": 304.0,
+      "region": [
+        26,
+        166,
+        71,
+        230
+      ],
+      "n": 74,
+      "n_signing": 18
+    },
+    "ĐI": {
+      "shoulder_w_px": 368.0,
+      "region": [
+        11,
+        180,
+        55,
+        249
+      ],
+      "n": 62,
+      "n_signing": 20
+    },
+    "ĐIỀU_HÒA": {
+      "shoulder_w_px": 340.0,
+      "region": [
+        8,
+        165,
+        71,
+        249
+      ],
+      "n": 84,
+      "n_signing": 15
+    },
+    "ĐOÁN": {
+      "shoulder_w_px": 350.8,
+      "region": [
+        12,
+        174,
+        62,
+        247
+      ],
+      "n": 70,
+      "n_signing": 26
+    },
+    "ĐƯỜNG_BỘ": {
+      "shoulder_w_px": 303.2,
+      "region": [
+        27,
+        167,
+        82,
+        241
+      ],
+      "n": 70,
+      "n_signing": 12
+    },
+    "ĐƯỜNG_HÀNG_KHÔNG": {
+      "shoulder_w_px": 296.0,
+      "region": [
+        27,
+        164,
+        81,
+        236
+      ],
+      "n": 95,
+      "n_signing": 12
+    },
+    "ĐẦY": {
+      "shoulder_w_px": 354.4,
+      "region": [
+        11,
+        175,
+        63,
+        250
+      ],
+      "n": 176,
+      "n_signing": 35
+    },
+    "ĐẶT": {
+      "shoulder_w_px": 269.6,
+      "region": [
+        28,
+        153,
+        94,
+        236
+      ],
+      "n": 63,
+      "n_signing": 21
+    }
+  },
+  "sentences": [
+    {
+      "i": 1,
+      "text": "bạn muốn gửi thư bằng đường bộ hay đường hàng không ?",
+      "glosses": [
+        "BẠN",
+        "MUỐN",
+        "GỬI_THƯ",
+        "BẰNG",
+        "ĐƯỜNG_BỘ",
+        "ĐƯỜNG_HÀNG_KHÔNG"
+      ],
+      "slots": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      "cols": [
+        {
+          "kind": "sign",
+          "gloss": "BẠN",
+          "gloss_idx": 0,
+          "r": 0.25,
+          "f_orig": 14,
+          "f_rend": 26,
+          "match_cost": 0.3783,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.513,
+          "mot_pct_orig": 0.704,
+          "hgt_pct_rend": 0.593,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "BẠN",
+          "gloss_idx": 0,
+          "r": 0.75,
+          "f_orig": 125,
+          "f_rend": 47,
+          "match_cost": 0.4456,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.524,
+          "mot_pct_orig": 0.995,
+          "hgt_pct_rend": 0.672,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 0,
+          "conn_between": [
+            "BẠN",
+            "MUỐN"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 84,
+          "in_conn": false,
+          "offset_from_join": 9,
+          "arm": 1.64,
+          "arm_min_conn": 2.33,
+          "rest_dist": 0.408,
+          "front": 0.397,
+          "hgt_norm": 0.147,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "MUỐN",
+          "gloss_idx": 1,
+          "r": 0.5,
+          "f_orig": 17,
+          "f_rend": 108,
+          "match_cost": 0.3762,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.462,
+          "mot_pct_orig": 0.936,
+          "hgt_pct_rend": 0.37,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 1,
+          "conn_between": [
+            "MUỐN",
+            "GỬI_THƯ"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 155,
+          "in_conn": false,
+          "offset_from_join": 26,
+          "arm": 1.74,
+          "arm_min_conn": 1.89,
+          "rest_dist": 0.903,
+          "front": 0.697,
+          "hgt_norm": 0.705,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "GỬI_THƯ",
+          "gloss_idx": 2,
+          "r": 0.25,
+          "f_orig": 13,
+          "f_rend": 158,
+          "match_cost": 0.2529,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.322,
+          "mot_pct_orig": 0.862,
+          "hgt_pct_rend": 0.81,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "GỬI_THƯ",
+          "gloss_idx": 2,
+          "r": 0.75,
+          "f_orig": 71,
+          "f_rend": 175,
+          "match_cost": 0.2772,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.333,
+          "mot_pct_orig": 0.989,
+          "hgt_pct_rend": 0.915,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 2,
+          "conn_between": [
+            "GỬI_THƯ",
+            "BẰNG"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 192,
+          "in_conn": true,
+          "offset_from_join": 0,
+          "arm": 0.72,
+          "arm_min_conn": 0.72,
+          "rest_dist": 0.71,
+          "front": 0.419,
+          "hgt_norm": 0.981,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "BẰNG",
+          "gloss_idx": 3,
+          "r": 0.5,
+          "f_orig": 25,
+          "f_rend": 221,
+          "match_cost": 0.2767,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.837,
+          "mot_pct_orig": 0.745,
+          "hgt_pct_rend": 0.954,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 3,
+          "conn_between": [
+            "BẰNG",
+            "ĐƯỜNG_BỘ"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 239,
+          "in_conn": true,
+          "offset_from_join": 1,
+          "arm": 1.6,
+          "arm_min_conn": 1.6,
+          "rest_dist": 0.577,
+          "front": 0.642,
+          "hgt_norm": 0.462,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "ĐƯỜNG_BỘ",
+          "gloss_idx": 4,
+          "r": 0.5,
+          "f_orig": 15,
+          "f_rend": 262,
+          "match_cost": 0.4151,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.457,
+          "mot_pct_orig": 0.943,
+          "hgt_pct_rend": 0.518,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 4,
+          "conn_between": [
+            "ĐƯỜNG_BỘ",
+            "ĐƯỜNG_HÀNG_KHÔNG"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 278,
+          "in_conn": true,
+          "offset_from_join": 0,
+          "arm": 1.44,
+          "arm_min_conn": 1.44,
+          "rest_dist": 0.595,
+          "front": 0.498,
+          "hgt_norm": 0.449,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "ĐƯỜNG_HÀNG_KHÔNG",
+          "gloss_idx": 5,
+          "r": 0.5,
+          "f_orig": 23,
+          "f_rend": 296,
+          "match_cost": 0.5911,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.768,
+          "mot_pct_orig": 0.726,
+          "hgt_pct_rend": 0.823,
+          "clip_rend": 0
+        }
+      ],
+      "gloss_text": "bạn muốn gửi thư bằng đường bộ hay đường hàng không ?",
+      "gloss_src": "t2g_output.json: gloss_pred",
+      "cov": 0.9090909090909091,
+      "ns": 6,
+      "dmg": 0,
+      "missing": [
+        "HAY"
+      ],
+      "kinds": [],
+      "split": "test",
+      "text_original": null,
+      "corrected": null,
+      "n_frames_rend": 305,
+      "seconds": 10.17,
+      "spike": {
+        "noi": 1.75,
+        "trong_doan": 2.03,
+        "d_noi": 4.14,
+        "d_doan_p95": 3.04,
+        "jerk_noi": 1.45,
+        "jerk_doan_p95": 0.95
+      },
+      "transitions": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "i": 2,
+      "text": "anh ấy vẫn phụ thuộc vào bố mẹ anh ấy trong cuộc sống .",
+      "glosses": [
+        "ANH",
+        "PHỤ_THUỘC",
+        "VÀO",
+        "BỐ_MẸ",
+        "ANH",
+        "CUỘC_SỐNG"
+      ],
+      "slots": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        2
+      ],
+      "cols": [
+        {
+          "kind": "sign",
+          "gloss": "ANH",
+          "gloss_idx": 0,
+          "r": 0.5,
+          "f_orig": 31,
+          "f_rend": 25,
+          "match_cost": 0.4259,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.768,
+          "mot_pct_orig": 0.988,
+          "hgt_pct_rend": 0.874,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 0,
+          "conn_between": [
+            "ANH",
+            "PHỤ_THUỘC"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 43,
+          "in_conn": true,
+          "offset_from_join": 2,
+          "arm": 0.86,
+          "arm_min_conn": 0.86,
+          "rest_dist": 0.34,
+          "front": 0.6,
+          "hgt_norm": 0.38,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "PHỤ_THUỘC",
+          "gloss_idx": 1,
+          "r": 0.25,
+          "f_orig": 23,
+          "f_rend": 68,
+          "match_cost": 0.3896,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.727,
+          "mot_pct_orig": 0.561,
+          "hgt_pct_rend": 0.765,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "PHỤ_THUỘC",
+          "gloss_idx": 1,
+          "r": 0.75,
+          "f_orig": 31,
+          "f_rend": 83,
+          "match_cost": 0.4053,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.697,
+          "mot_pct_orig": 0.606,
+          "hgt_pct_rend": 0.741,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 1,
+          "conn_between": [
+            "PHỤ_THUỘC",
+            "VÀO"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 111,
+          "in_conn": false,
+          "offset_from_join": 8,
+          "arm": 1.7,
+          "arm_min_conn": 2.41,
+          "rest_dist": 0.451,
+          "front": 0.392,
+          "hgt_norm": 0.122,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "VÀO",
+          "gloss_idx": 2,
+          "r": 0.5,
+          "f_orig": 12,
+          "f_rend": 119,
+          "match_cost": 0.2848,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.96,
+          "mot_pct_orig": 0.706,
+          "hgt_pct_rend": 0.618,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 2,
+          "conn_between": [
+            "VÀO",
+            "BỐ_MẸ"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 148,
+          "in_conn": false,
+          "offset_from_join": 9,
+          "arm": 1.83,
+          "arm_min_conn": 2.51,
+          "rest_dist": 0.352,
+          "front": 0.503,
+          "hgt_norm": 0.537,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "BỐ_MẸ",
+          "gloss_idx": 3,
+          "r": 0.5,
+          "f_orig": 38,
+          "f_rend": 166,
+          "match_cost": 0.2891,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.9,
+          "mot_pct_orig": 0.72,
+          "hgt_pct_rend": 0.826,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 3,
+          "conn_between": [
+            "BỐ_MẸ",
+            "ANH"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 181,
+          "in_conn": true,
+          "offset_from_join": 2,
+          "arm": 1.71,
+          "arm_min_conn": 1.71,
+          "rest_dist": 0.526,
+          "front": 0.7,
+          "hgt_norm": 0.449,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "ANH",
+          "gloss_idx": 4,
+          "r": 0.5,
+          "f_orig": 31,
+          "f_rend": 211,
+          "match_cost": 0.4341,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.768,
+          "mot_pct_orig": 0.988,
+          "hgt_pct_rend": 0.863,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 4,
+          "conn_between": [
+            "ANH",
+            "CUỘC_SỐNG"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 228,
+          "in_conn": true,
+          "offset_from_join": 1,
+          "arm": 0.76,
+          "arm_min_conn": 0.76,
+          "rest_dist": 0.602,
+          "front": 0.438,
+          "hgt_norm": 0.599,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "CUỘC_SỐNG",
+          "gloss_idx": 5,
+          "r": 0.25,
+          "f_orig": 40,
+          "f_rend": 258,
+          "match_cost": 0.3835,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.645,
+          "mot_pct_orig": 0.763,
+          "hgt_pct_rend": 0.451,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "CUỘC_SỐNG",
+          "gloss_idx": 5,
+          "r": 0.75,
+          "f_orig": 57,
+          "f_rend": 278,
+          "match_cost": 0.3889,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.632,
+          "mot_pct_orig": 0.934,
+          "hgt_pct_rend": 0.519,
+          "clip_rend": 0
+        }
+      ],
+      "gloss_text": "anh phụ thuộc vào bố mẹ anh trong cuộc sống .",
+      "gloss_src": "demo_sentences.json: gloss (da sua)",
+      "cov": 0.9,
+      "ns": 6,
+      "dmg": 0,
+      "missing": [
+        "TRONG"
+      ],
+      "kinds": [],
+      "split": "val",
+      "text_original": "anh ấy vẫn phụ thuộc và bố mẹ anh ấy trong cuộc sống .",
+      "corrected": "Corpus-Vie-VSL-10K.xlsx gốc viết sai 'và' ở CẢ cột text và cột gloss; đúng là 'phụ thuộc VÀO'. Đã sửa cho bộ demo. Sau khi sửa: 6 ký hiệu, phủ 90% (trước 5 ký hiệu, 80%).",
+      "n_frames_rend": 293,
+      "seconds": 9.77,
+      "spike": {
+        "noi": 1.38,
+        "trong_doan": 1.85,
+        "d_noi": 3.91,
+        "d_doan_p95": 2.8,
+        "jerk_noi": 1.55,
+        "jerk_doan_p95": 0.96
+      },
+      "transitions": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "i": 3,
+      "text": "chúng tôi đã quỳ xuống cầu nguyện .",
+      "glosses": [
+        "CHÚNG_TÔI",
+        "QUỲ",
+        "XUỐNG",
+        "CẦU_NGUYỆN"
+      ],
+      "slots": [
+        3,
+        2,
+        3,
+        2
+      ],
+      "cols": [
+        {
+          "kind": "sign",
+          "gloss": "CHÚNG_TÔI",
+          "gloss_idx": 0,
+          "r": 0.1667,
+          "f_orig": 24,
+          "f_rend": 21,
+          "match_cost": 0.4272,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.766,
+          "mot_pct_orig": 0.714,
+          "hgt_pct_rend": 0.855,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "CHÚNG_TÔI",
+          "gloss_idx": 0,
+          "r": 0.5,
+          "f_orig": 35,
+          "f_rend": 35,
+          "match_cost": 0.3676,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.909,
+          "mot_pct_orig": 0.519,
+          "hgt_pct_rend": 0.759,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "CHÚNG_TÔI",
+          "gloss_idx": 0,
+          "r": 0.8333,
+          "f_orig": 59,
+          "f_rend": 47,
+          "match_cost": 0.3576,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.455,
+          "mot_pct_orig": 0.948,
+          "hgt_pct_rend": 0.781,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 0,
+          "conn_between": [
+            "CHÚNG_TÔI",
+            "QUỲ"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 91,
+          "in_conn": false,
+          "offset_from_join": 21,
+          "arm": 1.65,
+          "arm_min_conn": 2.21,
+          "rest_dist": 0.733,
+          "front": 0.532,
+          "hgt_norm": 0.376,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "QUỲ",
+          "gloss_idx": 1,
+          "r": 0.25,
+          "f_orig": 69,
+          "f_rend": 98,
+          "match_cost": 0.4445,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.4,
+          "mot_pct_orig": 0.867,
+          "hgt_pct_rend": 0.61,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "QUỲ",
+          "gloss_idx": 1,
+          "r": 0.75,
+          "f_orig": 70,
+          "f_rend": 108,
+          "match_cost": 0.3276,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.378,
+          "mot_pct_orig": 0.9,
+          "hgt_pct_rend": 0.838,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 1,
+          "conn_between": [
+            "QUỲ",
+            "XUỐNG"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 122,
+          "in_conn": true,
+          "offset_from_join": 0,
+          "arm": 1.16,
+          "arm_min_conn": 1.16,
+          "rest_dist": 0.776,
+          "front": 0.627,
+          "hgt_norm": 0.525,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "XUỐNG",
+          "gloss_idx": 2,
+          "r": 0.1667,
+          "f_orig": 14,
+          "f_rend": 142,
+          "match_cost": 0.3074,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.784,
+          "mot_pct_orig": 0.892,
+          "hgt_pct_rend": 0.671,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "XUỐNG",
+          "gloss_idx": 2,
+          "r": 0.5,
+          "f_orig": 18,
+          "f_rend": 148,
+          "match_cost": 0.3055,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.892,
+          "mot_pct_orig": 0.878,
+          "hgt_pct_rend": 0.996,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "XUỐNG",
+          "gloss_idx": 2,
+          "r": 0.8333,
+          "f_orig": 19,
+          "f_rend": 154,
+          "match_cost": 0.3225,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.919,
+          "mot_pct_orig": 0.797,
+          "hgt_pct_rend": 0.82,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 2,
+          "conn_between": [
+            "XUỐNG",
+            "CẦU_NGUYỆN"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 196,
+          "in_conn": true,
+          "offset_from_join": 0,
+          "arm": 1.53,
+          "arm_min_conn": 1.53,
+          "rest_dist": 0.718,
+          "front": 0.428,
+          "hgt_norm": 0.393,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "CẦU_NGUYỆN",
+          "gloss_idx": 3,
+          "r": 0.25,
+          "f_orig": 51,
+          "f_rend": 210,
+          "match_cost": 0.2787,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.616,
+          "mot_pct_orig": 0.944,
+          "hgt_pct_rend": 0.939,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "CẦU_NGUYỆN",
+          "gloss_idx": 3,
+          "r": 0.75,
+          "f_orig": 196,
+          "f_rend": 216,
+          "match_cost": 0.2801,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.625,
+          "mot_pct_orig": 0.907,
+          "hgt_pct_rend": 0.772,
+          "clip_rend": 0
+        }
+      ],
+      "gloss_text": "chúng tôi quỳ xuống cầu nguyện .",
+      "gloss_src": "t2g_output.json: gloss_pred",
+      "cov": 1.0,
+      "ns": 4,
+      "dmg": 0,
+      "missing": [],
+      "kinds": [],
+      "split": "test",
+      "text_original": null,
+      "corrected": null,
+      "n_frames_rend": 228,
+      "seconds": 7.6,
+      "spike": {
+        "noi": 1.52,
+        "trong_doan": 1.95,
+        "d_noi": 5.2,
+        "d_doan_p95": 2.64,
+        "jerk_noi": 1.65,
+        "jerk_doan_p95": 0.88
+      },
+      "transitions": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "i": 4,
+      "text": "bạn sẽ nhận một cơ hội khác .",
+      "glosses": [
+        "BẠN",
+        "NHẬN",
+        "CƠ_HỘI",
+        "KHÁC"
+      ],
+      "slots": [
+        3,
+        2,
+        2,
+        3
+      ],
+      "cols": [
+        {
+          "kind": "sign",
+          "gloss": "BẠN",
+          "gloss_idx": 0,
+          "r": 0.1667,
+          "f_orig": 14,
+          "f_rend": 22,
+          "match_cost": 0.4141,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.513,
+          "mot_pct_orig": 0.704,
+          "hgt_pct_rend": 0.838,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "BẠN",
+          "gloss_idx": 0,
+          "r": 0.5,
+          "f_orig": 15,
+          "f_rend": 37,
+          "match_cost": 0.4568,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.714,
+          "mot_pct_orig": 0.735,
+          "hgt_pct_rend": 0.613,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "BẠN",
+          "gloss_idx": 0,
+          "r": 0.8333,
+          "f_orig": 125,
+          "f_rend": 51,
+          "match_cost": 0.4234,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.524,
+          "mot_pct_orig": 0.995,
+          "hgt_pct_rend": 0.771,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 0,
+          "conn_between": [
+            "BẠN",
+            "NHẬN"
+          ],
+          "conn_len": 3,
+          "f_orig": null,
+          "f_rend": 80,
+          "in_conn": false,
+          "offset_from_join": 5,
+          "arm": 1.68,
+          "arm_min_conn": 2.12,
+          "rest_dist": 0.147,
+          "front": 0.391,
+          "hgt_norm": 0.173,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "NHẬN",
+          "gloss_idx": 1,
+          "r": 0.25,
+          "f_orig": 23,
+          "f_rend": 95,
+          "match_cost": 0.4775,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.972,
+          "mot_pct_orig": 0.493,
+          "hgt_pct_rend": 0.287,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "NHẬN",
+          "gloss_idx": 1,
+          "r": 0.75,
+          "f_orig": 52,
+          "f_rend": 104,
+          "match_cost": 0.4055,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.662,
+          "mot_pct_orig": 0.563,
+          "hgt_pct_rend": 0.438,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 1,
+          "conn_between": [
+            "NHẬN",
+            "CƠ_HỘI"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 115,
+          "in_conn": true,
+          "offset_from_join": 0,
+          "arm": 0.96,
+          "arm_min_conn": 0.96,
+          "rest_dist": 0.552,
+          "front": 0.594,
+          "hgt_norm": 0.42,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "CƠ_HỘI",
+          "gloss_idx": 2,
+          "r": 0.25,
+          "f_orig": 42,
+          "f_rend": 142,
+          "match_cost": 0.3411,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.558,
+          "mot_pct_orig": 0.364,
+          "hgt_pct_rend": 0.637,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "CƠ_HỘI",
+          "gloss_idx": 2,
+          "r": 0.75,
+          "f_orig": 56,
+          "f_rend": 156,
+          "match_cost": 0.3513,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.377,
+          "mot_pct_orig": 0.377,
+          "hgt_pct_rend": 0.646,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 2,
+          "conn_between": [
+            "CƠ_HỘI",
+            "KHÁC"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 172,
+          "in_conn": true,
+          "offset_from_join": 0,
+          "arm": 1.41,
+          "arm_min_conn": 1.41,
+          "rest_dist": 0.518,
+          "front": 0.693,
+          "hgt_norm": 0.576,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "KHÁC",
+          "gloss_idx": 3,
+          "r": 0.1667,
+          "f_orig": 17,
+          "f_rend": 195,
+          "match_cost": 0.2663,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.486,
+          "mot_pct_orig": 0.986,
+          "hgt_pct_rend": 0.796,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "KHÁC",
+          "gloss_idx": 3,
+          "r": 0.5,
+          "f_orig": 35,
+          "f_rend": 203,
+          "match_cost": 0.3285,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.824,
+          "mot_pct_orig": 0.541,
+          "hgt_pct_rend": 0.979,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "KHÁC",
+          "gloss_idx": 3,
+          "r": 0.8333,
+          "f_orig": 49,
+          "f_rend": 213,
+          "match_cost": 0.3103,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.608,
+          "mot_pct_orig": 0.622,
+          "hgt_pct_rend": 0.95,
+          "clip_rend": 0
+        }
+      ],
+      "gloss_text": "bạn nhận một cơ hội khác .",
+      "gloss_src": "t2g_output.json: gloss_pred",
+      "cov": 0.8333333333333334,
+      "ns": 4,
+      "dmg": 0,
+      "missing": [
+        "MỘT"
+      ],
+      "kinds": [],
+      "split": "test",
+      "text_original": null,
+      "corrected": null,
+      "n_frames_rend": 240,
+      "seconds": 8.0,
+      "spike": {
+        "noi": 1.32,
+        "trong_doan": 1.66,
+        "d_noi": 2.66,
+        "d_doan_p95": 3.81,
+        "jerk_noi": 0.78,
+        "jerk_doan_p95": 0.99
+      },
+      "transitions": [
+        3,
+        7,
+        7
+      ]
+    },
+    {
+      "i": 5,
+      "text": "bạn muốn thực hiện cuộc gọi của bạn lúc nào ?",
+      "glosses": [
+        "BẠN",
+        "MUỐN",
+        "THỰC_HIỆN",
+        "GỌI",
+        "BẠN",
+        "LÚC_NÀO"
+      ],
+      "slots": [
+        2,
+        1,
+        1,
+        2,
+        1,
+        1
+      ],
+      "cols": [
+        {
+          "kind": "sign",
+          "gloss": "BẠN",
+          "gloss_idx": 0,
+          "r": 0.25,
+          "f_orig": 14,
+          "f_rend": 26,
+          "match_cost": 0.3641,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.513,
+          "mot_pct_orig": 0.704,
+          "hgt_pct_rend": 0.66,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "BẠN",
+          "gloss_idx": 0,
+          "r": 0.75,
+          "f_orig": 125,
+          "f_rend": 47,
+          "match_cost": 0.427,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.524,
+          "mot_pct_orig": 0.995,
+          "hgt_pct_rend": 0.716,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 0,
+          "conn_between": [
+            "BẠN",
+            "MUỐN"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 84,
+          "in_conn": false,
+          "offset_from_join": 9,
+          "arm": 1.61,
+          "arm_min_conn": 2.33,
+          "rest_dist": 0.383,
+          "front": 0.384,
+          "hgt_norm": 0.229,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "MUỐN",
+          "gloss_idx": 1,
+          "r": 0.5,
+          "f_orig": 17,
+          "f_rend": 108,
+          "match_cost": 0.3586,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.462,
+          "mot_pct_orig": 0.936,
+          "hgt_pct_rend": 0.495,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 1,
+          "conn_between": [
+            "MUỐN",
+            "THỰC_HIỆN"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 131,
+          "in_conn": true,
+          "offset_from_join": 2,
+          "arm": 1.75,
+          "arm_min_conn": 1.74,
+          "rest_dist": 0.553,
+          "front": 0.566,
+          "hgt_norm": 0.341,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "THỰC_HIỆN",
+          "gloss_idx": 2,
+          "r": 0.5,
+          "f_orig": 19,
+          "f_rend": 154,
+          "match_cost": 0.4089,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.909,
+          "mot_pct_orig": 0.879,
+          "hgt_pct_rend": 0.983,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 2,
+          "conn_between": [
+            "THỰC_HIỆN",
+            "GỌI"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 202,
+          "in_conn": false,
+          "offset_from_join": 8,
+          "arm": 1.78,
+          "arm_min_conn": 2.13,
+          "rest_dist": 0.383,
+          "front": 0.398,
+          "hgt_norm": 0.263,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "GỌI",
+          "gloss_idx": 3,
+          "r": 0.25,
+          "f_orig": 16,
+          "f_rend": 227,
+          "match_cost": 0.3044,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.639,
+          "mot_pct_orig": 0.995,
+          "hgt_pct_rend": 0.925,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "GỌI",
+          "gloss_idx": 3,
+          "r": 0.75,
+          "f_orig": 62,
+          "f_rend": 250,
+          "match_cost": 0.2767,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.71,
+          "mot_pct_orig": 0.945,
+          "hgt_pct_rend": 0.998,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 3,
+          "conn_between": [
+            "GỌI",
+            "BẠN"
+          ],
+          "conn_len": 6,
+          "f_orig": null,
+          "f_rend": 296,
+          "in_conn": false,
+          "offset_from_join": 19,
+          "arm": 1.59,
+          "arm_min_conn": 1.91,
+          "rest_dist": 0.251,
+          "front": 0.692,
+          "hgt_norm": 0.242,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "BẠN",
+          "gloss_idx": 4,
+          "r": 0.5,
+          "f_orig": 14,
+          "f_rend": 320,
+          "match_cost": 0.3906,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.513,
+          "mot_pct_orig": 0.704,
+          "hgt_pct_rend": 0.65,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 4,
+          "conn_between": [
+            "BẠN",
+            "LÚC_NÀO"
+          ],
+          "conn_len": 3,
+          "f_orig": null,
+          "f_rend": 363,
+          "in_conn": false,
+          "offset_from_join": 5,
+          "arm": 1.65,
+          "arm_min_conn": 2.18,
+          "rest_dist": 0.389,
+          "front": 0.383,
+          "hgt_norm": 0.293,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "LÚC_NÀO",
+          "gloss_idx": 5,
+          "r": 0.5,
+          "f_orig": 36,
+          "f_rend": 388,
+          "match_cost": 0.2613,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.765,
+          "mot_pct_orig": 0.716,
+          "hgt_pct_rend": 0.881,
+          "clip_rend": 0
+        }
+      ],
+      "gloss_text": "bạn muốn thực hiện cuộc gọi bạn lúc nào ?",
+      "gloss_src": "t2g_output.json: gloss_pred",
+      "cov": 0.8888888888888888,
+      "ns": 6,
+      "dmg": 1,
+      "missing": [
+        "CUỘC"
+      ],
+      "kinds": [
+        "nửa từ ghép"
+      ],
+      "split": "test",
+      "text_original": null,
+      "corrected": null,
+      "n_frames_rend": 412,
+      "seconds": 13.73,
+      "spike": {
+        "noi": 1.8,
+        "trong_doan": 1.72,
+        "d_noi": 2.08,
+        "d_doan_p95": 2.87,
+        "jerk_noi": 0.67,
+        "jerk_doan_p95": 0.88
+      },
+      "transitions": [
+        7,
+        7,
+        7,
+        6,
+        3
+      ]
+    },
+    {
+      "i": 6,
+      "text": "anh ấy giỏi phán đoán tính cách .",
+      "glosses": [
+        "ANH",
+        "GIỎI",
+        "ĐOÁN",
+        "TÍNH_CÁCH"
+      ],
+      "slots": [
+        2,
+        3,
+        2,
+        3
+      ],
+      "cols": [
+        {
+          "kind": "sign",
+          "gloss": "ANH",
+          "gloss_idx": 0,
+          "r": 0.25,
+          "f_orig": 36,
+          "f_rend": 20,
+          "match_cost": 0.4831,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.927,
+          "mot_pct_orig": 0.561,
+          "hgt_pct_rend": 0.945,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "ANH",
+          "gloss_idx": 0,
+          "r": 0.75,
+          "f_orig": 57,
+          "f_rend": 29,
+          "match_cost": 0.4573,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.524,
+          "mot_pct_orig": 0.707,
+          "hgt_pct_rend": 0.941,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 0,
+          "conn_between": [
+            "ANH",
+            "GIỎI"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 43,
+          "in_conn": true,
+          "offset_from_join": 2,
+          "arm": 0.78,
+          "arm_min_conn": 0.78,
+          "rest_dist": 0.572,
+          "front": 0.454,
+          "hgt_norm": 0.368,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "GIỎI",
+          "gloss_idx": 1,
+          "r": 0.1667,
+          "f_orig": 142,
+          "f_rend": 76,
+          "match_cost": 0.3016,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.514,
+          "mot_pct_orig": 0.95,
+          "hgt_pct_rend": 0.571,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "GIỎI",
+          "gloss_idx": 1,
+          "r": 0.5,
+          "f_orig": 241,
+          "f_rend": 81,
+          "match_cost": 0.334,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.668,
+          "mot_pct_orig": 0.965,
+          "hgt_pct_rend": 0.676,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "GIỎI",
+          "gloss_idx": 1,
+          "r": 0.8333,
+          "f_orig": 242,
+          "f_rend": 86,
+          "match_cost": 0.3058,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.529,
+          "mot_pct_orig": 0.977,
+          "hgt_pct_rend": 0.753,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 1,
+          "conn_between": [
+            "GIỎI",
+            "ĐOÁN"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 97,
+          "in_conn": true,
+          "offset_from_join": 0,
+          "arm": 1.46,
+          "arm_min_conn": 1.46,
+          "rest_dist": 0.934,
+          "front": 0.65,
+          "hgt_norm": 0.522,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "ĐOÁN",
+          "gloss_idx": 2,
+          "r": 0.25,
+          "f_orig": 27,
+          "f_rend": 119,
+          "match_cost": 0.3692,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.714,
+          "mot_pct_orig": 0.571,
+          "hgt_pct_rend": 0.735,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "ĐOÁN",
+          "gloss_idx": 2,
+          "r": 0.75,
+          "f_orig": 32,
+          "f_rend": 132,
+          "match_cost": 0.4262,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.957,
+          "mot_pct_orig": 0.471,
+          "hgt_pct_rend": 0.826,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 2,
+          "conn_between": [
+            "ĐOÁN",
+            "TÍNH_CÁCH"
+          ],
+          "conn_len": 3,
+          "f_orig": null,
+          "f_rend": 166,
+          "in_conn": false,
+          "offset_from_join": 14,
+          "arm": 1.43,
+          "arm_min_conn": 2.43,
+          "rest_dist": 0.676,
+          "front": 0.506,
+          "hgt_norm": 0.208,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "TÍNH_CÁCH",
+          "gloss_idx": 3,
+          "r": 0.1667,
+          "f_orig": 9,
+          "f_rend": 171,
+          "match_cost": 0.4467,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.444,
+          "mot_pct_orig": 0.986,
+          "hgt_pct_rend": 0.598,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "TÍNH_CÁCH",
+          "gloss_idx": 3,
+          "r": 0.5,
+          "f_orig": 47,
+          "f_rend": 183,
+          "match_cost": 0.4783,
+          "clip_orig": 2,
+          "hgt_pct_orig": 0.486,
+          "mot_pct_orig": 0.806,
+          "hgt_pct_rend": 0.635,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "TÍNH_CÁCH",
+          "gloss_idx": 3,
+          "r": 0.8333,
+          "f_orig": 48,
+          "f_rend": 195,
+          "match_cost": 0.4726,
+          "clip_orig": 2,
+          "hgt_pct_orig": 0.458,
+          "mot_pct_orig": 0.875,
+          "hgt_pct_rend": 0.479,
+          "clip_rend": 0
+        }
+      ],
+      "gloss_text": "anh giỏi phán đoán tính cách .",
+      "gloss_src": "t2g_output.json: gloss_pred",
+      "cov": 0.8333333333333334,
+      "ns": 4,
+      "dmg": 1,
+      "missing": [
+        "PHÁN"
+      ],
+      "kinds": [
+        "nửa từ ghép"
+      ],
+      "split": "test",
+      "text_original": null,
+      "corrected": null,
+      "n_frames_rend": 219,
+      "seconds": 7.3,
+      "spike": {
+        "noi": 1.35,
+        "trong_doan": 1.78,
+        "d_noi": 3.82,
+        "d_doan_p95": 3.01,
+        "jerk_noi": 1.58,
+        "jerk_doan_p95": 0.99
+      },
+      "transitions": [
+        7,
+        7,
+        3
+      ]
+    },
+    {
+      "i": 7,
+      "text": "thế nào mà họ lại mất con trai duy nhất của họ chứ ?",
+      "glosses": [
+        "HỌ",
+        "MẤT",
+        "CON_TRAI",
+        "DUY_NHẤT",
+        "HỌ"
+      ],
+      "slots": [
+        2,
+        2,
+        1,
+        2,
+        2
+      ],
+      "cols": [
+        {
+          "kind": "sign",
+          "gloss": "HỌ",
+          "gloss_idx": 0,
+          "r": 0.25,
+          "f_orig": 15,
+          "f_rend": 13,
+          "match_cost": 0.2739,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.417,
+          "mot_pct_orig": 0.958,
+          "hgt_pct_rend": 0.535,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "HỌ",
+          "gloss_idx": 0,
+          "r": 0.75,
+          "f_orig": 72,
+          "f_rend": 14,
+          "match_cost": 0.2271,
+          "clip_orig": 2,
+          "hgt_pct_orig": 0.396,
+          "mot_pct_orig": 0.875,
+          "hgt_pct_rend": 0.629,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 0,
+          "conn_between": [
+            "HỌ",
+            "MẤT"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 39,
+          "in_conn": true,
+          "offset_from_join": 4,
+          "arm": 1.13,
+          "arm_min_conn": 0.2,
+          "rest_dist": 0.884,
+          "front": 0.288,
+          "hgt_norm": 0.455,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "MẤT",
+          "gloss_idx": 1,
+          "r": 0.25,
+          "f_orig": 26,
+          "f_rend": 62,
+          "match_cost": 0.2781,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.924,
+          "mot_pct_orig": 0.864,
+          "hgt_pct_rend": 0.829,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "MẤT",
+          "gloss_idx": 1,
+          "r": 0.75,
+          "f_orig": 32,
+          "f_rend": 77,
+          "match_cost": 0.3425,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.894,
+          "mot_pct_orig": 0.409,
+          "hgt_pct_rend": 0.857,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 1,
+          "conn_between": [
+            "MẤT",
+            "CON_TRAI"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 107,
+          "in_conn": true,
+          "offset_from_join": 6,
+          "arm": 1.66,
+          "arm_min_conn": 1.63,
+          "rest_dist": 1.021,
+          "front": 0.672,
+          "hgt_norm": 0.442,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "CON_TRAI",
+          "gloss_idx": 2,
+          "r": 0.5,
+          "f_orig": 14,
+          "f_rend": 120,
+          "match_cost": 0.3657,
+          "clip_orig": 1,
+          "hgt_pct_orig": 0.437,
+          "mot_pct_orig": 0.958,
+          "hgt_pct_rend": 0.416,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 2,
+          "conn_between": [
+            "CON_TRAI",
+            "DUY_NHẤT"
+          ],
+          "conn_len": 3,
+          "f_orig": null,
+          "f_rend": 151,
+          "in_conn": false,
+          "offset_from_join": 14,
+          "arm": 1.72,
+          "arm_min_conn": 2.34,
+          "rest_dist": 0.921,
+          "front": 0.477,
+          "hgt_norm": 0.243,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "DUY_NHẤT",
+          "gloss_idx": 3,
+          "r": 0.25,
+          "f_orig": 26,
+          "f_rend": 162,
+          "match_cost": 0.3238,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.686,
+          "mot_pct_orig": 0.657,
+          "hgt_pct_rend": 0.98,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "DUY_NHẤT",
+          "gloss_idx": 3,
+          "r": 0.75,
+          "f_orig": 43,
+          "f_rend": 178,
+          "match_cost": 0.26,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.771,
+          "mot_pct_orig": 0.557,
+          "hgt_pct_rend": 0.89,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 3,
+          "conn_between": [
+            "DUY_NHẤT",
+            "HỌ"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 221,
+          "in_conn": false,
+          "offset_from_join": 18,
+          "arm": 1.61,
+          "arm_min_conn": 2.36,
+          "rest_dist": 0.883,
+          "front": 0.409,
+          "hgt_norm": 0.284,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "HỌ",
+          "gloss_idx": 4,
+          "r": 0.25,
+          "f_orig": 15,
+          "f_rend": 222,
+          "match_cost": 0.3044,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.417,
+          "mot_pct_orig": 0.958,
+          "hgt_pct_rend": 0.453,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "HỌ",
+          "gloss_idx": 4,
+          "r": 0.75,
+          "f_orig": 72,
+          "f_rend": 223,
+          "match_cost": 0.2453,
+          "clip_orig": 2,
+          "hgt_pct_orig": 0.396,
+          "mot_pct_orig": 0.875,
+          "hgt_pct_rend": 0.555,
+          "clip_rend": 0
+        }
+      ],
+      "gloss_text": "thế nào mà họ mất con trai duy nhất họ ?",
+      "gloss_src": "t2g_output.json: gloss_pred",
+      "cov": 0.7,
+      "ns": 5,
+      "dmg": 4,
+      "missing": [
+        "THẾ",
+        "NÀO",
+        "MÀ"
+      ],
+      "kinds": [
+        "từ hỏi",
+        "từ hỏi"
+      ],
+      "split": "val",
+      "text_original": null,
+      "corrected": null,
+      "n_frames_rend": 245,
+      "seconds": 8.17,
+      "spike": {
+        "noi": 1.55,
+        "trong_doan": 2.45,
+        "d_noi": 5.26,
+        "d_doan_p95": 3.23,
+        "jerk_noi": 1.6,
+        "jerk_doan_p95": 0.8
+      },
+      "transitions": [
+        7,
+        7,
+        3,
+        7
+      ]
+    },
+    {
+      "i": 8,
+      "text": "chuyến tàu đã đầy chặt những khách đi bằng vé tháng .",
+      "glosses": [
+        "ĐẦY",
+        "CHẶT",
+        "KHÁCH",
+        "ĐI",
+        "BẰNG",
+        "VÉ",
+        "THÁNG"
+      ],
+      "slots": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cols": [
+        {
+          "kind": "sign",
+          "gloss": "ĐẦY",
+          "gloss_idx": 0,
+          "r": 0.5,
+          "f_orig": 156,
+          "f_rend": 18,
+          "match_cost": 0.2748,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.619,
+          "mot_pct_orig": 0.989,
+          "hgt_pct_rend": 0.76,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 0,
+          "conn_between": [
+            "ĐẦY",
+            "CHẶT"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 31,
+          "in_conn": true,
+          "offset_from_join": 0,
+          "arm": 0.99,
+          "arm_min_conn": 0.99,
+          "rest_dist": 0.85,
+          "front": 0.577,
+          "hgt_norm": 0.681,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "CHẶT",
+          "gloss_idx": 1,
+          "r": 0.5,
+          "f_orig": 28,
+          "f_rend": 80,
+          "match_cost": 0.3791,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.988,
+          "mot_pct_orig": 0.774,
+          "hgt_pct_rend": 0.966,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 1,
+          "conn_between": [
+            "CHẶT",
+            "KHÁCH"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 123,
+          "in_conn": false,
+          "offset_from_join": 8,
+          "arm": 1.76,
+          "arm_min_conn": 1.91,
+          "rest_dist": 0.478,
+          "front": 0.347,
+          "hgt_norm": 0.451,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "KHÁCH",
+          "gloss_idx": 2,
+          "r": 0.5,
+          "f_orig": 15,
+          "f_rend": 139,
+          "match_cost": 0.3618,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.484,
+          "mot_pct_orig": 0.953,
+          "hgt_pct_rend": 0.531,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 2,
+          "conn_between": [
+            "KHÁCH",
+            "ĐI"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 153,
+          "in_conn": true,
+          "offset_from_join": 0,
+          "arm": 1.18,
+          "arm_min_conn": 1.18,
+          "rest_dist": 0.409,
+          "front": 0.495,
+          "hgt_norm": 0.307,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "ĐI",
+          "gloss_idx": 3,
+          "r": 0.5,
+          "f_orig": 24,
+          "f_rend": 177,
+          "match_cost": 0.4659,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.952,
+          "mot_pct_orig": 0.532,
+          "hgt_pct_rend": 0.658,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 3,
+          "conn_between": [
+            "ĐI",
+            "BẰNG"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 213,
+          "in_conn": false,
+          "offset_from_join": 10,
+          "arm": 1.73,
+          "arm_min_conn": 2.21,
+          "rest_dist": 0.449,
+          "front": 0.249,
+          "hgt_norm": -0.039,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "BẰNG",
+          "gloss_idx": 4,
+          "r": 0.5,
+          "f_orig": 19,
+          "f_rend": 232,
+          "match_cost": 0.3026,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.439,
+          "mot_pct_orig": 0.837,
+          "hgt_pct_rend": 0.836,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 4,
+          "conn_between": [
+            "BẰNG",
+            "VÉ"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 249,
+          "in_conn": true,
+          "offset_from_join": 0,
+          "arm": 1.36,
+          "arm_min_conn": 1.36,
+          "rest_dist": 0.737,
+          "front": 0.793,
+          "hgt_norm": 0.54,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "VÉ",
+          "gloss_idx": 5,
+          "r": 0.5,
+          "f_orig": 52,
+          "f_rend": 280,
+          "match_cost": 0.2123,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.617,
+          "mot_pct_orig": 0.956,
+          "hgt_pct_rend": 0.715,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 5,
+          "conn_between": [
+            "VÉ",
+            "THÁNG"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 328,
+          "in_conn": false,
+          "offset_from_join": 19,
+          "arm": 1.64,
+          "arm_min_conn": 2.25,
+          "rest_dist": 0.412,
+          "front": 0.599,
+          "hgt_norm": 0.275,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "THÁNG",
+          "gloss_idx": 6,
+          "r": 0.5,
+          "f_orig": 19,
+          "f_rend": 338,
+          "match_cost": 0.3244,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.594,
+          "mot_pct_orig": 0.884,
+          "hgt_pct_rend": 0.949,
+          "clip_rend": 0
+        }
+      ],
+      "gloss_text": "chuyến tàu đầy chặt khách đi bằng vé tháng .",
+      "gloss_src": "t2g_output.json: gloss_pred",
+      "cov": 0.7777777777777778,
+      "ns": 7,
+      "dmg": 6,
+      "missing": [
+        "CHUYẾN",
+        "TÀU"
+      ],
+      "kinds": [
+        "từ nội dung",
+        "từ nội dung"
+      ],
+      "split": "test",
+      "text_original": null,
+      "corrected": null,
+      "n_frames_rend": 354,
+      "seconds": 11.8,
+      "spike": {
+        "noi": 1.42,
+        "trong_doan": 2.03,
+        "d_noi": 5.27,
+        "d_doan_p95": 2.83,
+        "jerk_noi": 1.56,
+        "jerk_doan_p95": 0.91
+      },
+      "transitions": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "i": 9,
+      "text": "các điều hòa không khí được đặt trên tường , bên cạnh hành lang .",
+      "glosses": [
+        "ĐIỀU_HÒA",
+        "KHÔNG_KHÍ",
+        "ĐẶT",
+        "BÊN_CẠNH",
+        "HÀNH_LANG"
+      ],
+      "slots": [
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "cols": [
+        {
+          "kind": "sign",
+          "gloss": "ĐIỀU_HÒA",
+          "gloss_idx": 0,
+          "r": 0.25,
+          "f_orig": 28,
+          "f_rend": 21,
+          "match_cost": 0.557,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.571,
+          "mot_pct_orig": 0.798,
+          "hgt_pct_rend": 0.914,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "ĐIỀU_HÒA",
+          "gloss_idx": 0,
+          "r": 0.75,
+          "f_orig": 59,
+          "f_rend": 34,
+          "match_cost": 0.4869,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.667,
+          "mot_pct_orig": 0.714,
+          "hgt_pct_rend": 0.986,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 0,
+          "conn_between": [
+            "ĐIỀU_HÒA",
+            "KHÔNG_KHÍ"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 52,
+          "in_conn": true,
+          "offset_from_join": 3,
+          "arm": 0.84,
+          "arm_min_conn": 0.84,
+          "rest_dist": 0.86,
+          "front": 0.402,
+          "hgt_norm": 0.404,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "KHÔNG_KHÍ",
+          "gloss_idx": 1,
+          "r": 0.25,
+          "f_orig": 35,
+          "f_rend": 86,
+          "match_cost": 0.3863,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.954,
+          "mot_pct_orig": 0.609,
+          "hgt_pct_rend": 0.883,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "KHÔNG_KHÍ",
+          "gloss_idx": 1,
+          "r": 0.75,
+          "f_orig": 49,
+          "f_rend": 106,
+          "match_cost": 0.3791,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.724,
+          "mot_pct_orig": 0.368,
+          "hgt_pct_rend": 0.783,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 1,
+          "conn_between": [
+            "KHÔNG_KHÍ",
+            "ĐẶT"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 139,
+          "in_conn": true,
+          "offset_from_join": 6,
+          "arm": 1.64,
+          "arm_min_conn": 1.64,
+          "rest_dist": 0.913,
+          "front": 0.402,
+          "hgt_norm": 0.303,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "ĐẶT",
+          "gloss_idx": 2,
+          "r": 0.25,
+          "f_orig": 22,
+          "f_rend": 155,
+          "match_cost": 0.266,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.921,
+          "mot_pct_orig": 0.73,
+          "hgt_pct_rend": 0.728,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "ĐẶT",
+          "gloss_idx": 2,
+          "r": 0.75,
+          "f_orig": 44,
+          "f_rend": 168,
+          "match_cost": 0.3778,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.492,
+          "mot_pct_orig": 0.905,
+          "hgt_pct_rend": 0.383,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 2,
+          "conn_between": [
+            "ĐẶT",
+            "BÊN_CẠNH"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 207,
+          "in_conn": false,
+          "offset_from_join": 14,
+          "arm": 1.61,
+          "arm_min_conn": 2.22,
+          "rest_dist": 0.981,
+          "front": 0.524,
+          "hgt_norm": 0.25,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "BÊN_CẠNH",
+          "gloss_idx": 3,
+          "r": 0.25,
+          "f_orig": 17,
+          "f_rend": 211,
+          "match_cost": 0.2571,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.598,
+          "mot_pct_orig": 0.989,
+          "hgt_pct_rend": 0.528,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "BÊN_CẠNH",
+          "gloss_idx": 3,
+          "r": 0.75,
+          "f_orig": 47,
+          "f_rend": 228,
+          "match_cost": 0.2954,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.543,
+          "mot_pct_orig": 0.457,
+          "hgt_pct_rend": 0.476,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 3,
+          "conn_between": [
+            "BÊN_CẠNH",
+            "HÀNH_LANG"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 252,
+          "in_conn": false,
+          "offset_from_join": 9,
+          "arm": 1.75,
+          "arm_min_conn": 2.05,
+          "rest_dist": 0.885,
+          "front": 0.409,
+          "hgt_norm": 0.197,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "HÀNH_LANG",
+          "gloss_idx": 4,
+          "r": 0.5,
+          "f_orig": 54,
+          "f_rend": 274,
+          "match_cost": 0.3473,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.479,
+          "mot_pct_orig": 0.972,
+          "hgt_pct_rend": 0.662,
+          "clip_rend": 0
+        }
+      ],
+      "gloss_text": "điều hòa không khí được đặt trên tường bên cạnh hành lang .",
+      "gloss_src": "t2g_output.json: gloss_pred",
+      "cov": 0.75,
+      "ns": 5,
+      "dmg": 6,
+      "missing": [
+        "ĐƯỢC",
+        "TRÊN",
+        "TƯỜNG"
+      ],
+      "kinds": [
+        "từ nội dung",
+        "từ nội dung"
+      ],
+      "split": "test",
+      "text_original": null,
+      "corrected": null,
+      "n_frames_rend": 290,
+      "seconds": 9.67,
+      "spike": {
+        "noi": 1.71,
+        "trong_doan": 1.96,
+        "d_noi": 4.78,
+        "d_doan_p95": 3.68,
+        "jerk_noi": 1.43,
+        "jerk_doan_p95": 1.05
+      },
+      "transitions": [
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "i": 10,
+      "text": "đây là nơi chúng tôi muốn đi cắm trại mùa hè này .",
+      "glosses": [
+        "CHÚNG_TÔI",
+        "MUỐN",
+        "ĐI",
+        "CẮM_TRẠI",
+        "MÙA_HÈ"
+      ],
+      "slots": [
+        2,
+        2,
+        1,
+        2,
+        2
+      ],
+      "cols": [
+        {
+          "kind": "sign",
+          "gloss": "CHÚNG_TÔI",
+          "gloss_idx": 0,
+          "r": 0.25,
+          "f_orig": 31,
+          "f_rend": 25,
+          "match_cost": 0.4419,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.974,
+          "mot_pct_orig": 0.597,
+          "hgt_pct_rend": 0.902,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "CHÚNG_TÔI",
+          "gloss_idx": 0,
+          "r": 0.75,
+          "f_orig": 59,
+          "f_rend": 43,
+          "match_cost": 0.34,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.455,
+          "mot_pct_orig": 0.948,
+          "hgt_pct_rend": 0.875,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 0,
+          "conn_between": [
+            "CHÚNG_TÔI",
+            "MUỐN"
+          ],
+          "conn_len": 4,
+          "f_orig": null,
+          "f_rend": 76,
+          "in_conn": false,
+          "offset_from_join": 6,
+          "arm": 1.76,
+          "arm_min_conn": 2.31,
+          "rest_dist": 0.68,
+          "front": 0.322,
+          "hgt_norm": 0.135,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "MUỐN",
+          "gloss_idx": 1,
+          "r": 0.25,
+          "f_orig": 17,
+          "f_rend": 94,
+          "match_cost": 0.3672,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.462,
+          "mot_pct_orig": 0.936,
+          "hgt_pct_rend": 0.515,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "MUỐN",
+          "gloss_idx": 1,
+          "r": 0.75,
+          "f_orig": 60,
+          "f_rend": 107,
+          "match_cost": 0.3635,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.423,
+          "mot_pct_orig": 0.846,
+          "hgt_pct_rend": 0.549,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 1,
+          "conn_between": [
+            "MUỐN",
+            "ĐI"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 123,
+          "in_conn": true,
+          "offset_from_join": 2,
+          "arm": 1.64,
+          "arm_min_conn": 1.64,
+          "rest_dist": 0.756,
+          "front": 0.495,
+          "hgt_norm": 0.284,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "ĐI",
+          "gloss_idx": 2,
+          "r": 0.5,
+          "f_orig": 24,
+          "f_rend": 145,
+          "match_cost": 0.4859,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.952,
+          "mot_pct_orig": 0.532,
+          "hgt_pct_rend": 0.798,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 2,
+          "conn_between": [
+            "ĐI",
+            "CẮM_TRẠI"
+          ],
+          "conn_len": 3,
+          "f_orig": null,
+          "f_rend": 177,
+          "in_conn": false,
+          "offset_from_join": 6,
+          "arm": 1.75,
+          "arm_min_conn": 2.3,
+          "rest_dist": 0.673,
+          "front": 0.418,
+          "hgt_norm": 0.376,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "CẮM_TRẠI",
+          "gloss_idx": 3,
+          "r": 0.25,
+          "f_orig": 35,
+          "f_rend": 195,
+          "match_cost": 0.4041,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.829,
+          "mot_pct_orig": 0.658,
+          "hgt_pct_rend": 0.953,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "CẮM_TRẠI",
+          "gloss_idx": 3,
+          "r": 0.75,
+          "f_orig": 56,
+          "f_rend": 205,
+          "match_cost": 0.3767,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.461,
+          "mot_pct_orig": 0.855,
+          "hgt_pct_rend": 0.987,
+          "clip_rend": 0
+        },
+        {
+          "kind": "conn",
+          "gloss": null,
+          "gloss_idx": 3,
+          "conn_between": [
+            "CẮM_TRẠI",
+            "MÙA_HÈ"
+          ],
+          "conn_len": 7,
+          "f_orig": null,
+          "f_rend": 218,
+          "in_conn": true,
+          "offset_from_join": 0,
+          "arm": 1.05,
+          "arm_min_conn": 1.05,
+          "rest_dist": 0.879,
+          "front": 0.393,
+          "hgt_norm": 0.871,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "MÙA_HÈ",
+          "gloss_idx": 4,
+          "r": 0.25,
+          "f_orig": 22,
+          "f_rend": 247,
+          "match_cost": 0.4452,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.564,
+          "mot_pct_orig": 0.885,
+          "hgt_pct_rend": 0.569,
+          "clip_rend": 0
+        },
+        {
+          "kind": "sign",
+          "gloss": "MÙA_HÈ",
+          "gloss_idx": 4,
+          "r": 0.75,
+          "f_orig": 40,
+          "f_rend": 268,
+          "match_cost": 0.4453,
+          "clip_orig": 0,
+          "hgt_pct_orig": 0.795,
+          "mot_pct_orig": 0.628,
+          "hgt_pct_rend": 0.623,
+          "clip_rend": 0
+        }
+      ],
+      "gloss_text": "đây là nơi chúng tôi muốn đi cắm trại mùa hè này .",
+      "gloss_src": "t2g_output.json: gloss_pred",
+      "cov": 0.6666666666666666,
+      "ns": 5,
+      "dmg": 6,
+      "missing": [
+        "ĐÂY",
+        "LÀ",
+        "NƠI",
+        "NÀY"
+      ],
+      "kinds": [
+        "từ nội dung",
+        "từ nội dung"
+      ],
+      "split": "val",
+      "text_original": null,
+      "corrected": null,
+      "n_frames_rend": 297,
+      "seconds": 9.9,
+      "spike": {
+        "noi": 1.85,
+        "trong_doan": 1.63,
+        "d_noi": 3.46,
+        "d_doan_p95": 2.58,
+        "jerk_noi": 1.28,
+        "jerk_doan_p95": 0.89
+      },
+      "transitions": [
+        4,
+        7,
+        3,
+        7
+      ]
+    }
+  ]
+}
